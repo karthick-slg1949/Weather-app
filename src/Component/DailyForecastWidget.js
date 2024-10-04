@@ -15,7 +15,6 @@ function DailyForecastWidget({data}) {
     temperature_min,
     precipitation,
   } = data;
-  console.log(data);
   
   const now_date = {
     day: new Intl.DateTimeFormat(navigator.language, {
