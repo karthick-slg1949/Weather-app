@@ -18,7 +18,8 @@
    const [measurementSystem, setMeasurementSystem] = useState(
     MEASUREMENT_SYSTEMS.AUTO
   );
-  const [units, setUnits] = useState({});
+  const [units, setUnits] = useState(UNITS.DEFAULT || {});
+  
 
 
    useEffect(() => {
